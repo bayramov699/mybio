@@ -1,0 +1,90 @@
+body {
+    background-color: #2c3e50;
+     background-position: 0%;
+     background-size: cover;
+ }
+ h1 {
+     display: block;
+     font-family: 'MuseoModerno', cursive;
+     text-align:center;font-size: 70px;
+     color: darkolivegreen;
+ }
+ .img-div{
+     width: 100%;
+     display: block;
+    
+     margin: auto;
+ }
+ div {
+     margin: auto;
+     width: 80%;
+     text-align: justify;
+ }
+ .img-div img{
+     display: block;
+     margin: auto;
+     width: 450px; height: 450px; 
+     border-radius: 50%;
+     
+ }
+ video {
+     display: block;
+     margin: auto;
+    width: 550px; height: 350px;
+    border-radius: 30%;
+ }
+ footer{
+    display: block;
+    text-align:center;font-size: 70px;
+    color: lightsalmon;
+
+ }
+blockquote{
+    color: #7f8c8d;
+    font-size: 2rem;
+}
+.parent{
+    display: flex;
+    margin: auto;
+    background-color: #7f8c8d;
+    text-transform: uppercase;
+    padding: 1rem;
+
+}
+.child{
+   margin: auto;
+   padding: 10px;
+   font-size: 2rem;
+   font-family: sans-serif;
+   border-radius: 5px;
+   background-color: darkred;
+   max-width: 70%;
+   border: none;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.child:hover{
+    background-color: #fff;
+    color: darkslateblue;
+}
+audio{
+    width: 100%;
+}
+ul li {
+    margin: auto;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-media li{
+    list-style: none;
+}
+.social-media li a{
+    text-decoration:  none;
+    color: black;
+}
+a {
+    color: brown;
+}
